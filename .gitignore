@@ -1,0 +1,22 @@
+# Secretos: nunca al repo
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_*
+!*.pub
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Python (semana 9+)
+__pycache__/
+*.pyc
+.venv/
+
+# Logs y backups generados por scripts
+*.log
+*.tar.gz
